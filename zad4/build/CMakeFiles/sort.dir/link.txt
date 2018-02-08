@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -D_POSIX_C_SOURCE   CMakeFiles/sort.dir/sort.c.o  -o sort -rdynamic -lrt -lpthread 

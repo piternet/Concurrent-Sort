@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/piternet/mimuw/pw/zad4/A.c
+sort.h
+/home/piternet/mimuw/pw/zad4/sort.h
+
+/home/piternet/mimuw/pw/zad4/sort.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+strings.h
+-
+fcntl.h
+-
+sys/types.h
+-
+signal.h
+-
+semaphore.h
+-
+sys/mman.h
+-
+error.h
+-
+errno.h
+-
+sys/stat.h
+-
+stdbool.h
+-
+mqueue.h
+-
+sys/wait.h
+-
+
