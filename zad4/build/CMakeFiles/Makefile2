@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/piternet/mimuw/pw/zad4
 CMAKE_BINARY_DIR = /home/piternet/mimuw/pw/zad4/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/sort.dir
+# Target rules for target CMakeFiles/sort2.dir
 
 # All Build rule for target.
-CMakeFiles/sort.dir/all:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/depend
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piternet/mimuw/pw/zad4/build/CMakeFiles --progress-num=1,2 "Built target sort"
-.PHONY : CMakeFiles/sort.dir/all
+CMakeFiles/sort2.dir/all:
+	$(MAKE) -f CMakeFiles/sort2.dir/build.make CMakeFiles/sort2.dir/depend
+	$(MAKE) -f CMakeFiles/sort2.dir/build.make CMakeFiles/sort2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/piternet/mimuw/pw/zad4/build/CMakeFiles --progress-num=1,2 "Built target sort2"
+.PHONY : CMakeFiles/sort2.dir/all
 
 # Include target in all.
-all: CMakeFiles/sort.dir/all
+all: CMakeFiles/sort2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sort.dir/rule: cmake_check_build_system
+CMakeFiles/sort2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/piternet/mimuw/pw/zad4/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sort.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sort2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/piternet/mimuw/pw/zad4/build/CMakeFiles 0
-.PHONY : CMakeFiles/sort.dir/rule
+.PHONY : CMakeFiles/sort2.dir/rule
 
 # Convenience name for target.
-sort: CMakeFiles/sort.dir/rule
+sort2: CMakeFiles/sort2.dir/rule
 
-.PHONY : sort
-
-# clean rule for target.
-CMakeFiles/sort.dir/clean:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/clean
-.PHONY : CMakeFiles/sort.dir/clean
+.PHONY : sort2
 
 # clean rule for target.
-clean: CMakeFiles/sort.dir/clean
+CMakeFiles/sort2.dir/clean:
+	$(MAKE) -f CMakeFiles/sort2.dir/build.make CMakeFiles/sort2.dir/clean
+.PHONY : CMakeFiles/sort2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sort2.dir/clean
 
 .PHONY : clean
 

@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sort
+# Target rules for targets named sort2
 
 # Build rule for target.
-sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sort
-.PHONY : sort
+sort2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sort2
+.PHONY : sort2
 
 # fast build rule for target.
-sort/fast:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/build
-.PHONY : sort/fast
+sort2/fast:
+	$(MAKE) -f CMakeFiles/sort2.dir/build.make CMakeFiles/sort2.dir/build
+.PHONY : sort2/fast
 
-sort.o: sort.c.o
+sort2.o: sort2.c.o
 
-.PHONY : sort.o
+.PHONY : sort2.o
 
 # target to build an object file
-sort.c.o:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/sort.c.o
-.PHONY : sort.c.o
+sort2.c.o:
+	$(MAKE) -f CMakeFiles/sort2.dir/build.make CMakeFiles/sort2.dir/sort2.c.o
+.PHONY : sort2.c.o
 
-sort.i: sort.c.i
+sort2.i: sort2.c.i
 
-.PHONY : sort.i
+.PHONY : sort2.i
 
 # target to preprocess a source file
-sort.c.i:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/sort.c.i
-.PHONY : sort.c.i
+sort2.c.i:
+	$(MAKE) -f CMakeFiles/sort2.dir/build.make CMakeFiles/sort2.dir/sort2.c.i
+.PHONY : sort2.c.i
 
-sort.s: sort.c.s
+sort2.s: sort2.c.s
 
-.PHONY : sort.s
+.PHONY : sort2.s
 
 # target to generate assembly for a file
-sort.c.s:
-	$(MAKE) -f CMakeFiles/sort.dir/build.make CMakeFiles/sort.dir/sort.c.s
-.PHONY : sort.c.s
+sort2.c.s:
+	$(MAKE) -f CMakeFiles/sort2.dir/build.make CMakeFiles/sort2.dir/sort2.c.s
+.PHONY : sort2.c.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... sort"
+	@echo "... sort2"
 	@echo "... edit_cache"
-	@echo "... sort.o"
-	@echo "... sort.i"
-	@echo "... sort.s"
+	@echo "... sort2.o"
+	@echo "... sort2.i"
+	@echo "... sort2.s"
 .PHONY : help
 
 
